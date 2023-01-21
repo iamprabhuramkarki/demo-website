@@ -1,0 +1,5 @@
+{
+    "files.autoSave": "onFocusChange",
+    "editor.suggest.showStatusBar": false,
+    "liveServer.settings.port": 5501
+}

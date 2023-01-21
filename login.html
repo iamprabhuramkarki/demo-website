@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="navbar&container.css">
+    <link rel="stylesheet" href="courses&facilities.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #a0cafc34;
+        }
+
+        .form {
+            width: 90%;
+            height: 0%;
+            float: left;
+            margin: 100px;
+            margin-right: 100px;
+            margin-left: 100px;
+            margin-bottom: 10px;
+            padding-top: 100px;
+
+            border: 1px solid rgb(15, 29, 189);
+        }
+
+        input {
+            width: 20%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+        }
+
+        label{
+            width: 20%;
+            padding: 12px 20px;
+            margin: 8px 0;
+        }
+
+
+        .form button {
+            background-color: #00c3ff;
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-decoration: none;
+            margin: 4px 2px;
+            cursor: pointer;
+    
+        }
+
+        .container {
+            height: 45vh;
+            background-image: linear-gradient(#2f8af94f, #2f8af94f), url(./classroom.jpg);
+        }
+    </style>
+    <title>Register and LOGIN</title>
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li>
+                <h4><a href="index.html">PADMASHREE</a></h4>
+
+
+            </li>
+            <li><a href="login.html" target="new">LOGIN</a></li>
+            <li><a href="course.html" target="new">COURSE</a></li>
+            <li><a href="routine.html" target="new">ROUTINE</a></li>
+            <li><a href="aboutus.html" target="new">ABOUT US</a></li>
+
+        </ul>
+    </nav>
+
+   
+
+    <form class="form" id="myForm">
+
+        <label for="fname">NAME</label>
+        <input type="text" ID=fname placeholder="First Name" value=""><br><br>
+
+        <label for="email">Email</label>
+        <input type="email" ID=email placeholder="Email"><br><br>
+
+        <label for="address">Address</label>
+        <input type="text" ID=address placeholder="Address"><br><br>
+
+        <label for="Phone.No">Phone.No</label>
+        <input type="number" ID=Number placeholder="Phone No"><br><br>
+
+        <button type="submit">SUBMIT</button><br><br>
+
+    </form>
+    <script>
+        document.getElementById("myForm").innerHTML();
+    </script>
+
+
+    <!-- footer section     -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>All of our efforts are driven by our dedication to academic achievement, <br>intellectual freedom, and making
+            a
+            difference.</p>
+
+        <p style="font-style:italic;color: black;">
+            Made By Prabhuram
+        </p>
+</body>
+
+</html>
